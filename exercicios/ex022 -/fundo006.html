@@ -1,22 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de fundo</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
-            height: 100vh;
+            /*height: 100vh;
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /* shorthand - background
+            color > image > position > repeat > [size] > attachment
+            */
+
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -27,7 +35,10 @@
 <body>
     <main>
         <h1>Teste de Imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, recusandae. Quaerat, pariatur? Fugiat quos facilis nostrum corrupti iure debitis voluptates dolorum totam delectus at quas autem, maxime voluptatibus. Suscipit, quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, consequatur. Blanditiis possimus sunt accusantium est nulla sint impedit esse, eligendi nam obcaecati quos maiores, accusamus aut animi voluptatum! Suscipit, aut.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, recusandae. Quaerat, pariatur? Fugiat quos facilis nostrum corrupti iure debitis voluptates dolorum totam delectus at quas autem, maxime voluptatibus. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur tempora minima molestiae, qui rerum omnis totam voluptatum? Assumenda voluptate nisi ipsa dolor ea? Architecto accusamus labore iste quia, facere odit.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam a ab quia ad, sit atque! Incidunt quisquam, cumque perferendis dignissimos sed est harum, at numquam iste aliquid facere vel rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus optio numquam quibusdam ea non! Corporis commodi optio quia dolorem dignissimos, architecto magnam! Ratione quos, aperiam tempore alias quasi maxime nam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto dignissimos rerum aliquam dolor velit excepturi tenetur quos, assumenda ea odit aut deserunt sed ullam repellendus modi. Nisi molestias excepturi amet! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni delectus tenetur ab, accusamus laudantium saepe enim. A cumque consequuntur odio tenetur repellat, corrupti autem numquam, nihil quibusdam officiis dolorem temporibus.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus possimus impedit velit ipsam adipisci tenetur quaerat totam explicabo, cumque neque aspernatur, suscipit fugiat ducimus atque! Laudantium minima possimus illum et. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque quae distinctio a quaerat labore facilis quam sequi consequuntur, explicabo veniam accusamus praesentium, ut fugiat officia, aut nesciunt voluptatem dolorem vitae.</p>
     </main>
     
 </body>
